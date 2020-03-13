@@ -1,0 +1,6 @@
+D:\kursy\Csharp\Csh_rec\01_01_Epsilon\01_01_Epsilon\bin\Debug\01_01_Epsilon.exe.config
+D:\kursy\Csharp\Csh_rec\01_01_Epsilon\01_01_Epsilon\bin\Debug\01_01_Epsilon.exe
+D:\kursy\Csharp\Csh_rec\01_01_Epsilon\01_01_Epsilon\bin\Debug\01_01_Epsilon.pdb
+D:\kursy\Csharp\Csh_rec\01_01_Epsilon\01_01_Epsilon\obj\Debug\01_01_Epsilon.csprojResolveAssemblyReference.cache
+D:\kursy\Csharp\Csh_rec\01_01_Epsilon\01_01_Epsilon\obj\Debug\01_01_Epsilon.exe
+D:\kursy\Csharp\Csh_rec\01_01_Epsilon\01_01_Epsilon\obj\Debug\01_01_Epsilon.pdb
