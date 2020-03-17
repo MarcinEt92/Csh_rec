@@ -4,3 +4,9 @@ D:\kursy\Csharp\Csh_rec\01_01_Epsilon\01_01_Epsilon\bin\Debug\01_01_Epsilon.pdb
 D:\kursy\Csharp\Csh_rec\01_01_Epsilon\01_01_Epsilon\obj\Debug\01_01_Epsilon.csprojResolveAssemblyReference.cache
 D:\kursy\Csharp\Csh_rec\01_01_Epsilon\01_01_Epsilon\obj\Debug\01_01_Epsilon.exe
 D:\kursy\Csharp\Csh_rec\01_01_Epsilon\01_01_Epsilon\obj\Debug\01_01_Epsilon.pdb
+C:\Users\mkormanx\kursy\c_sh_rec\Csh_rec\01_01_Epsilon\01_01_Epsilon\bin\Debug\01_01_Epsilon.exe.config
+C:\Users\mkormanx\kursy\c_sh_rec\Csh_rec\01_01_Epsilon\01_01_Epsilon\bin\Debug\01_01_Epsilon.exe
+C:\Users\mkormanx\kursy\c_sh_rec\Csh_rec\01_01_Epsilon\01_01_Epsilon\bin\Debug\01_01_Epsilon.pdb
+C:\Users\mkormanx\kursy\c_sh_rec\Csh_rec\01_01_Epsilon\01_01_Epsilon\obj\Debug\01_01_Epsilon.csprojAssemblyReference.cache
+C:\Users\mkormanx\kursy\c_sh_rec\Csh_rec\01_01_Epsilon\01_01_Epsilon\obj\Debug\01_01_Epsilon.exe
+C:\Users\mkormanx\kursy\c_sh_rec\Csh_rec\01_01_Epsilon\01_01_Epsilon\obj\Debug\01_01_Epsilon.pdb

@@ -8,6 +8,13 @@ namespace _01_01_Epsilon
 {
     public static class Calculations
     {
+        [Flags]
+        public enum Language
+        {
+            Other = 0, CSharp = 1, VBNET = 2, VB6 = 4, MgdCpp = 9,
+                All = (CSharp|VBNET|VBNET)
+        }
+
         public enum ValidShapes
         {
             Square, Circle, Cylinder, Octagon
@@ -33,7 +40,7 @@ namespace _01_01_Epsilon
                 Console.WriteLine("Convert From Int To Short Fail!");
             }
         }
-
+        
         public static double DegreeToRadConversion(double degree)
         {
             return (Math.PI / 180) * degree;
@@ -49,6 +56,56 @@ namespace _01_01_Epsilon
         {
             int setOfMswSixteenBits = (int)(Math.Pow(2, 16) - 1) << 16;
             return number & setOfMswSixteenBits;
+        }
+
+        public static bool IsEnumParticulatFlagSet(Language lang, Language flag)
+        {
+            if ((lang != 0) && (lang | flag) == flag)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+
+        public static bool IsEnumFlagSet(Language lang, Language flag)
+        {
+            if ((lang & flag) == flag)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+
+        public static bool IsHandleFlagsEnumCorrect(Language language)
+        {
+            if ((language != 0) && (language & Language.All) == language)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+
+        public static bool IsHandledEnumValueCorrect(Language language)
+        {
+            switch (language)
+            {
+                case Language.Other:
+                case Language.CSharp:
+                case Language.VBNET:
+                case Language.VB6:
+                    return true;
+                default:
+                    return false;
+            }
         }
 
         public static bool IsApproximatelyEqualTo(double enumerator, double denominator, double dbValue)

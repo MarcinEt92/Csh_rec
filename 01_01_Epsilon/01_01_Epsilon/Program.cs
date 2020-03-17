@@ -89,7 +89,24 @@ namespace _01_01_Epsilon
             int sourceValue = 3400;
             short destinationValue;
 
+            // ref nie wymaga zainicjalizowania w ciele metody ale wymaga zainicjalizowania przed wywołaniem
+
             ConvertFromIntToShort(sourceValue, out destinationValue);
+
+            // unchecked powoduje zawiniecie do liczby ujemnej, checked powoduje wyjątek na etapie wykonania
+            // niezapakowanie w checked lub unchecked powoduje błąd kompilacji
+
+            unchecked
+            {
+                Console.WriteLine($"{ int.MaxValue + 1}");
+            }
+
+            int a = int.MaxValue;
+            double b = int.MaxValue + 0.2;
+
+            // utrata informacji, wartość -1
+
+            Console.WriteLine($"{(short)a}, {(short)b}");
 
             Console.WriteLine("\n\n 1.14. - 1.15 Triangle calculations - skipped \n");
 
@@ -99,12 +116,72 @@ namespace _01_01_Epsilon
 
             Console.WriteLine($"shape decimal equivalent: {shape.ToString("D")}");
             Console.WriteLine($"shape general representation: {ValidShapes.Cylinder.ToString("G")}");
+            Console.WriteLine($"shape flag representation: {ValidShapes.Cylinder.ToString("F")}");
             Console.WriteLine($"shape hex representation: {shape.ToString("X")}");
+            Console.WriteLine($"Def shape: {shape}");
 
             ValidColors validColor = ValidColors.Blue | ValidColors.Green;
 
-            Console.WriteLine($"\nColors flags attributes usage Blue OR Green: {validColor}");
+            Console.WriteLine($"\nColors flags attributes usage Blue OR Green: {validColor.ToString("G")}");
             Console.WriteLine($"Colors flags attribute usage Blue OR Green: {validColor.ToString("D")}");
+
+            Console.WriteLine("\n\n1.17 - enums conversion\n");
+
+
+            try
+            {
+                //Language lang1 = (Language)Enum.Parse(typeof(Language), "Undefined");
+                Language lang2 = (Language)Enum.Parse(typeof(Language), "VBNET, CSharp");
+                //Console.WriteLine(lang1);
+                Console.WriteLine(lang2.ToString("F"));
+            }
+            catch(ArgumentException e)
+            {
+                Console.WriteLine($"Conversion Failed {e.ToString()}");
+            }
+
+            Console.WriteLine("\n\n1.18 - enums check if type is correct\n");
+
+            Console.WriteLine(IsHandledEnumValueCorrect(Language.MgdCpp));
+            Console.WriteLine(IsHandledEnumValueCorrect((Language)7));
+
+            Console.WriteLine("\n\n1.19 - enums check if type is correct using flags attribute\n");
+
+            // we chceck that not only a single value is corret, but also combinantions which is sum of flags
+
+            Console.WriteLine(IsHandledEnumValueCorrect(Language.VB6));
+
+            Console.WriteLine("\n\n1.20 - enums check if flag i set\n");
+
+            Language lang = Language.CSharp | Language.VB6;
+            Language flagToCheck = Language.VBNET;
+
+            Console.WriteLine(IsEnumFlagSet(lang, flagToCheck));
+
+            Console.WriteLine("\n\n1.21 - enums check if multiple flags were enabled\n");
+
+            // sprawdzamy czy zawiera się w zbiorze wartości dozwolonych
+            // we can also use OR | operator instead of & to check in lang has only one particular flag
+
+            if ((lang & (Language.CSharp | Language.VB6)) == (Language.CSharp | Language.VB6))
+            {
+                Console.WriteLine("True - Flags enabled");
+            }
+            else
+            {
+                Console.WriteLine("False - Flags disabled");
+            }
+
+            Console.WriteLine("\n\n1.22 - enums check if one particular flag is enabled\n");
+
+            // sprawdzamy czy zawiera wyłącznie konkretną wartość dozwoloną (inne flagi muszą być wyłączone żeby dało true)
+
+            Console.WriteLine(IsEnumParticulatFlagSet(lang, Language.CSharp));
+
+            Console.WriteLine("\n\n1.23 - czesc calkowita liczby\n");
+
+            Console.WriteLine(Math.Truncate(Math.PI));
+
 
             Console.ReadKey();
         }
