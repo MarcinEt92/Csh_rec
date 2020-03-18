@@ -1,0 +1,11 @@
+C:\Users\mkormanx\kursy\c_sh_rec\Csh_rec\01_01_01_Classes_And_Generics\01_01_01_Classes_And_Generics\bin\Debug\netcoreapp3.0\01_01_01_Classes_And_Generics.exe
+C:\Users\mkormanx\kursy\c_sh_rec\Csh_rec\01_01_01_Classes_And_Generics\01_01_01_Classes_And_Generics\bin\Debug\netcoreapp3.0\01_01_01_Classes_And_Generics.deps.json
+C:\Users\mkormanx\kursy\c_sh_rec\Csh_rec\01_01_01_Classes_And_Generics\01_01_01_Classes_And_Generics\bin\Debug\netcoreapp3.0\01_01_01_Classes_And_Generics.runtimeconfig.json
+C:\Users\mkormanx\kursy\c_sh_rec\Csh_rec\01_01_01_Classes_And_Generics\01_01_01_Classes_And_Generics\bin\Debug\netcoreapp3.0\01_01_01_Classes_And_Generics.runtimeconfig.dev.json
+C:\Users\mkormanx\kursy\c_sh_rec\Csh_rec\01_01_01_Classes_And_Generics\01_01_01_Classes_And_Generics\bin\Debug\netcoreapp3.0\01_01_01_Classes_And_Generics.dll
+C:\Users\mkormanx\kursy\c_sh_rec\Csh_rec\01_01_01_Classes_And_Generics\01_01_01_Classes_And_Generics\bin\Debug\netcoreapp3.0\01_01_01_Classes_And_Generics.pdb
+C:\Users\mkormanx\kursy\c_sh_rec\Csh_rec\01_01_01_Classes_And_Generics\01_01_01_Classes_And_Generics\obj\Debug\netcoreapp3.0\01_01_01_Classes_And_Generics.csprojAssemblyReference.cache
+C:\Users\mkormanx\kursy\c_sh_rec\Csh_rec\01_01_01_Classes_And_Generics\01_01_01_Classes_And_Generics\obj\Debug\netcoreapp3.0\01_01_01_Classes_And_Generics.AssemblyInfoInputs.cache
+C:\Users\mkormanx\kursy\c_sh_rec\Csh_rec\01_01_01_Classes_And_Generics\01_01_01_Classes_And_Generics\obj\Debug\netcoreapp3.0\01_01_01_Classes_And_Generics.AssemblyInfo.cs
+C:\Users\mkormanx\kursy\c_sh_rec\Csh_rec\01_01_01_Classes_And_Generics\01_01_01_Classes_And_Generics\obj\Debug\netcoreapp3.0\01_01_01_Classes_And_Generics.dll
+C:\Users\mkormanx\kursy\c_sh_rec\Csh_rec\01_01_01_Classes_And_Generics\01_01_01_Classes_And_Generics\obj\Debug\netcoreapp3.0\01_01_01_Classes_And_Generics.pdb
