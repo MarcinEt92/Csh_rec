@@ -82,6 +82,13 @@ namespace _01_01_01_Classes_And_Generics
 
             Console.WriteLine($"Found (8,9): {found}");
 
+            Console.WriteLine("\n1.4 Returning multiple values from method eng page 14, pl str 178 (prob 3.21)\n\n");
+
+            int dimWidth;
+            int dimHeight;
+            int dimDepth;
+
+            
         }
     }
 }
