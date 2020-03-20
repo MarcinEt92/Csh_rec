@@ -1,0 +1,11 @@
+C:\Users\mkormanx\kursy\c_sh_rec\Csh_rec\ParseCmdLineArgs\ParseCmdLineArgs\bin\Debug\netcoreapp3.0\ParseCmdLineArgs.exe
+C:\Users\mkormanx\kursy\c_sh_rec\Csh_rec\ParseCmdLineArgs\ParseCmdLineArgs\bin\Debug\netcoreapp3.0\ParseCmdLineArgs.deps.json
+C:\Users\mkormanx\kursy\c_sh_rec\Csh_rec\ParseCmdLineArgs\ParseCmdLineArgs\bin\Debug\netcoreapp3.0\ParseCmdLineArgs.runtimeconfig.json
+C:\Users\mkormanx\kursy\c_sh_rec\Csh_rec\ParseCmdLineArgs\ParseCmdLineArgs\bin\Debug\netcoreapp3.0\ParseCmdLineArgs.runtimeconfig.dev.json
+C:\Users\mkormanx\kursy\c_sh_rec\Csh_rec\ParseCmdLineArgs\ParseCmdLineArgs\bin\Debug\netcoreapp3.0\ParseCmdLineArgs.dll
+C:\Users\mkormanx\kursy\c_sh_rec\Csh_rec\ParseCmdLineArgs\ParseCmdLineArgs\bin\Debug\netcoreapp3.0\ParseCmdLineArgs.pdb
+C:\Users\mkormanx\kursy\c_sh_rec\Csh_rec\ParseCmdLineArgs\ParseCmdLineArgs\obj\Debug\netcoreapp3.0\ParseCmdLineArgs.AssemblyInfoInputs.cache
+C:\Users\mkormanx\kursy\c_sh_rec\Csh_rec\ParseCmdLineArgs\ParseCmdLineArgs\obj\Debug\netcoreapp3.0\ParseCmdLineArgs.AssemblyInfo.cs
+C:\Users\mkormanx\kursy\c_sh_rec\Csh_rec\ParseCmdLineArgs\ParseCmdLineArgs\obj\Debug\netcoreapp3.0\ParseCmdLineArgs.dll
+C:\Users\mkormanx\kursy\c_sh_rec\Csh_rec\ParseCmdLineArgs\ParseCmdLineArgs\obj\Debug\netcoreapp3.0\ParseCmdLineArgs.pdb
+C:\Users\mkormanx\kursy\c_sh_rec\Csh_rec\ParseCmdLineArgs\ParseCmdLineArgs\obj\Debug\netcoreapp3.0\ParseCmdLineArgs.csprojAssemblyReference.cache

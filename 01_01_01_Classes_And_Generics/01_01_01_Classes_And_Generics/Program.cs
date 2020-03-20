@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Runtime.InteropServices;
+using static _01_01_01_Classes_And_Generics.Calculations;
 
 namespace _01_01_01_Classes_And_Generics
 {
@@ -38,15 +39,15 @@ namespace _01_01_01_Classes_And_Generics
         {
             // union is a type commonly used in C++ for storing variuos data types in one memory location
 
-            Console.WriteLine("\n1.1 eng page 3 Struct that works as an union \n\n");
+            Console.WriteLine("\n1.1 eng page 3 Struct that works as an union \n");
 
-            Console.WriteLine("\n3.2 Formatting class data (IFormatable) pl str 113 \n\n");
+            Console.WriteLine("\n\n3.2 Formatting class data (IFormatable) pl str 113 \n");
 
             Line l1 = new Line(1, 2, 3, 4);
 
             Console.WriteLine(l1.ToString("V"));
 
-            Console.WriteLine("\n1.2 Making a type sortable pl str 127, eng page 6 \n\n");
+            Console.WriteLine("\n\n1.2 Making a type sortable pl str 127, eng page 6 \n");
 
             List<SortableSquare> list1 = new List<SortableSquare>
             {
@@ -76,19 +77,32 @@ namespace _01_01_01_Classes_And_Generics
 
             list1.ForEach(Console.WriteLine);
 
-            Console.WriteLine("\n1.3 Making a type searcheable pl str 132, eng page 10 \n\n");
+            Console.WriteLine("\n\n1.3 Making a type searcheable pl str 132, eng page 10 \n");
 
             int found = list1.BinarySearch(new SortableSquare(width: 8, height: 9));
 
             Console.WriteLine($"Found (8,9): {found}");
 
-            Console.WriteLine("\n1.4 Returning multiple values from method eng page 14, pl str 178 (prob 3.21)\n\n");
+            Console.WriteLine("\n\n1.4 Returning multiple values from method eng page 14, pl str 178 (prob 3.21)\n");
 
             int dimWidth;
             int dimHeight;
             int dimDepth;
 
-            
+            ReturnAndWriteSampleDimensions(out dimWidth, out dimHeight, out dimDepth);
+
+            Console.WriteLine("\nUsing structure:\n");
+
+            Dimensions dimensions = ReturnSampleDimensionsFromStruct();
+
+            //Console.WriteLine($"Dim: {dimensions.dimWidth} {dimensions.dimHeight} {dimensions.dimDepth}");
+            Console.WriteLine($"Dimensions from struct: {dimensions.ToString()}");
+
+            Console.WriteLine("\nUsing Tuple:");
+
+            Tuple<int, int, int> dimTuple = ReturnDimensionsAsTuple();
+
+            Console.WriteLine($"Dimensions in a Tuple: {dimTuple.ToString()}");
         }
     }
 }

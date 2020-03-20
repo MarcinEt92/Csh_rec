@@ -182,6 +182,7 @@ namespace _01_01_Epsilon
 
             Console.WriteLine(Math.Truncate(Math.PI));
 
+            WriteSth();
 
             Console.ReadKey();
         }
